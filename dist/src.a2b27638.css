@@ -13,18 +13,22 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
 .over45 {
-  background-color: #abffbd;
+  background-color: #abffbd !important;
 }
 
 .under25 {
-  background-color: #ff9e9e;
+  background-color: #ff9e9e !important;
 }
 
 th {
   background-color: #b7d0ff;
   font-style: bold;
-  padding: 2px 0px 12px 6px;
+  padding: 12px 0px 12px 6px;
   border-bottom: 2px solid gray;
 }
 
