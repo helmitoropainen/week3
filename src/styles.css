@@ -1,0 +1,47 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+td {
+  padding: 6px;
+  border-bottom-style: solid;
+  border-width: 1;
+  border-color: gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.over45 {
+  background-color: #abffbd;
+}
+
+.under25 {
+  background-color: #ff9e9e;
+}
+
+thead {
+  background-color: #b7d0ff;
+  font-style: bold;
+  padding: 2px 0px 12px 6px;
+  border-bottom: 2px solid gray;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  padding: 60px;
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
