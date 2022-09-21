@@ -1,6 +1,6 @@
 import "./styles.css";
 
-const table = document.getElementById("population-table");
+const table = document.getElementById("table-body");
 getData();
 
 async function getData() {
